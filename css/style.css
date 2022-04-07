@@ -43,7 +43,6 @@ a {
 
 .box {
     float: left;
-    width: calc(100% / 3 - 20px);
     height: 100px;
     color: white;
     background-color: #0f0e17;
@@ -55,7 +54,6 @@ a {
 .box img {
     float: left;
     width: 100px;
-
 }
 
 .info-persona {
