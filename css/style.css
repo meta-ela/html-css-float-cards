@@ -36,15 +36,30 @@ p {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #49a4dd;
+}
+
 .box {
     float: left;
-    width: 300px;
+    width: calc(100% / 3);
+    height: 100px;
     color: white;
-    background-color: black;
+    background-color: #0f0e17;
     text-align: left;
+    box-shadow: 1px 1px 0.5rem rgba(0,0,0,0.5);
+    margin: 10px;
 }
 
 .box img {
     float: left;
     width: 100px;
+}
+
+.info-persona {
+    width: 200px;
+    padding: 15px;
+    float: left;
+    line-height: 24px;
 }
