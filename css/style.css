@@ -36,6 +36,15 @@ p {
     text-align: center;
 }
 
-img {
+.box {
+    float: left;
+    width: 300px;
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+
+.box img {
+    float: left;
     width: 100px;
 }
